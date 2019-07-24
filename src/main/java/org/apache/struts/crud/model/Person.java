@@ -15,7 +15,7 @@ import java.util.Arrays;
  * @author bruce phillips
  * @author antonio sanchez
  */
-@Entity
+
 public class Person implements Cloneable {
 
 
