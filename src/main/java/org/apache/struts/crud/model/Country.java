@@ -9,7 +9,8 @@ import javax.persistence.Table;
  * @author bruce phillips
  * @author antonio sánchez
  */
-@Entity
+
+
 public class Country {
     private String countryId;
     private String countryName;
