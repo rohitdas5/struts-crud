@@ -1,0 +1,760 @@
+Retrieving logs for app struts in org rohitdas1 / space development as rohit_das1@dell.com...
+
+   2019-07-24T22:35:22.94+0530 [API/15] OUT Updated app with guid 7ce406c5-5a18-40e2-b62d-e45448cb72cb ({"buildpack"=>"", "disk_quota"=>1024, "health_check_http_endpoint"=>"", "health_check_type"=>"port", "instances"=>1, "memory"=>1024, "name"=>"struts", "space_guid"=>"ded461d6-2807-47f3-9134-15dc1f11cd50"})
+   2019-07-24T22:35:27.07+0530 [API/6] OUT Uploading bits for app with guid 7ce406c5-5a18-40e2-b62d-e45448cb72cb
+   2019-07-24T22:35:39.08+0530 [CELL/0] OUT Cell c0f8311a-7c5f-4a07-81f8-5da3fc5f6ca3 stopping instance a4ac9842-7834-49cd-7bbe-921b
+   2019-07-24T22:35:39.10+0530 [API/19] OUT Updated app with guid 7ce406c5-5a18-40e2-b62d-e45448cb72cb ({"state"=>"STOPPED"})
+   2019-07-24T22:35:39.83+0530 [API/15] OUT Creating build for app with guid 7ce406c5-5a18-40e2-b62d-e45448cb72cb
+   2019-07-24T22:35:41.02+0530 [API/15] OUT Updated app with guid 7ce406c5-5a18-40e2-b62d-e45448cb72cb ({"state"=>"STARTED"})
+   2019-07-24T22:35:41.18+0530 [STG/0] OUT Downloading dotnet_core_buildpack_beta...
+   2019-07-24T22:35:41.18+0530 [STG/0] OUT Downloading java_buildpack...
+   2019-07-24T22:35:41.18+0530 [STG/0] OUT Downloading ruby_buildpack...
+   2019-07-24T22:35:41.18+0530 [STG/0] OUT Downloading nodejs_buildpack...
+   2019-07-24T22:35:41.20+0530 [STG/0] OUT Downloading dotnet_core_buildpack...
+   2019-07-24T22:35:41.23+0530 [STG/0] OUT Downloaded java_buildpack
+   2019-07-24T22:35:41.23+0530 [STG/0] OUT Downloading python_buildpack...
+   2019-07-24T22:35:41.23+0530 [STG/0] OUT Downloaded nodejs_buildpack
+   2019-07-24T22:35:41.23+0530 [STG/0] OUT Downloading go_buildpack...
+   2019-07-24T22:35:41.24+0530 [STG/0] OUT Downloaded ruby_buildpack
+   2019-07-24T22:35:41.24+0530 [STG/0] OUT Downloading staticfile_buildpack...
+   2019-07-24T22:35:41.24+0530 [STG/0] OUT Downloaded dotnet_core_buildpack_beta
+   2019-07-24T22:35:41.24+0530 [STG/0] OUT Downloading binary_buildpack...
+   2019-07-24T22:35:41.25+0530 [STG/0] OUT Downloaded dotnet_core_buildpack
+   2019-07-24T22:35:41.25+0530 [STG/0] OUT Downloading php_buildpack...
+   2019-07-24T22:35:41.26+0530 [STG/0] OUT Downloaded python_buildpack
+   2019-07-24T22:35:41.26+0530 [STG/0] OUT Downloaded binary_buildpack
+   2019-07-24T22:35:41.27+0530 [STG/0] OUT Downloaded staticfile_buildpack
+   2019-07-24T22:35:41.27+0530 [STG/0] OUT Downloaded go_buildpack
+   2019-07-24T22:35:41.29+0530 [STG/0] OUT Downloaded php_buildpack
+   2019-07-24T22:35:41.29+0530 [STG/0] OUT Cell 9434eb8f-e05d-4cda-8ee0-0c6a480f17b0 creating container for instance cdae3b6a-e41f-4874-bd74-1427c151af90
+   2019-07-24T22:35:41.95+0530 [STG/0] OUT Cell 9434eb8f-e05d-4cda-8ee0-0c6a480f17b0 successfully created container for instance cdae3b6a-e41f-4874-bd74-1427c151af90
+   2019-07-24T22:35:42.13+0530 [STG/0] OUT Downloading app package...
+   2019-07-24T22:35:42.13+0530 [STG/0] OUT Downloading build artifacts cache...
+   2019-07-24T22:35:42.25+0530 [STG/0] OUT Downloaded build artifacts cache (130B)
+   2019-07-24T22:35:43.52+0530 [STG/0] OUT Downloaded app package (32.4M)
+   2019-07-24T22:35:44.68+0530 [CELL/SSHD/0] OUT Exit status 0
+   2019-07-24T22:35:44.68+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.681  INFO 7 --- [       Thread-3] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d86b085: startup date [Wed Jul 24 16:44:47 UTC 2019]; root of context hierarchy
+   2019-07-24T22:35:44.68+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.684  INFO 7 --- [       Thread-3] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+   2019-07-24T22:35:44.68+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.686  INFO 7 --- [       Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+   2019-07-24T22:35:44.75+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.752  INFO 7 --- [ost-startStop-2] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:35:44.81+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.812  INFO 7 --- [ost-startStop-2] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:35:44.81+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.812  INFO 7 --- [ost-startStop-2] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:35:44.81+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.812  INFO 7 --- [ost-startStop-2] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:35:44.83+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.833  INFO 7 --- [ost-startStop-2] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:35:44.86+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.863  INFO 7 --- [ost-startStop-2] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:35:44.86+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.863  INFO 7 --- [ost-startStop-2] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:35:44.86+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:05:44.863  INFO 7 --- [ost-startStop-2] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:35:45.02+0530 [APP/PROC/WEB/0] OUT Exit status 143
+   2019-07-24T22:35:45.03+0530 [CELL/0] OUT Cell c0f8311a-7c5f-4a07-81f8-5da3fc5f6ca3 destroying container for instance a4ac9842-7834-49cd-7bbe-921b
+   2019-07-24T22:35:45.24+0530 [PROXY/0] OUT Exit status 137
+   2019-07-24T22:35:45.61+0530 [CELL/0] OUT Cell c0f8311a-7c5f-4a07-81f8-5da3fc5f6ca3 successfully destroyed container for instance a4ac9842-7834-49cd-7bbe-921b
+   2019-07-24T22:35:46.55+0530 [STG/0] OUT [1m[31m----->[0m[22m [1m[34mJava Buildpack[0m[22m [34mv4.20[0m [34m(offline)[0m | https://github.com/cloudfoundry/java-buildpack.git#2cd7e3e
+   2019-07-24T22:35:46.63+0530 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mJvmkill Agent[0m[22m [34m1.16.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/jvmkill/bionic/x86_64/jvmkill-1.16.0-RELEASE.so [3m[32m(found in cache)[0m[23m
+   2019-07-24T22:35:46.64+0530 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mOpen Jdk JRE[0m[22m [34m1.8.0_222[0m from https://java-buildpack.cloudfoundry.org/openjdk/bionic/x86_64/openjdk-jre-1.8.0_222-bionic.tar.gz [3m[32m(found in cache)[0m[23m
+   2019-07-24T22:35:48.05+0530 [STG/0] OUT        Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre [3m[32m(1.4s)[0m[23m
+   2019-07-24T22:35:48.05+0530 [STG/0] OUT        JVM DNS caching disabled in lieu of BOSH DNS caching
+   2019-07-24T22:35:48.05+0530 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mOpen JDK Like Memory Calculator[0m[22m [34m3.13.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/memory-calculator/bionic/x86_64/memory-calculator-3.13.0-RELEASE.tar.gz [3m[32m(found in cache)[0m[23m
+   2019-07-24T22:35:49.25+0530 [STG/0] OUT        Loaded Classes: 15937, Threads: 250
+   2019-07-24T22:35:49.27+0530 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mClient Certificate Mapper[0m[22m [34m1.8.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/client-certificate-mapper/client-certificate-mapper-1.8.0-RELEASE.jar [3m[32m(found in cache)[0m[23m
+   2019-07-24T22:35:49.27+0530 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mContainer Customizer[0m[22m [34m2.6.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/container-customizer/container-customizer-2.6.0-RELEASE.jar [3m[32m(found in cache)[0m[23m
+   2019-07-24T22:35:49.27+0530 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mContainer Security Provider[0m[22m [34m1.16.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/container-security-provider/container-security-provider-1.16.0-RELEASE.jar [3m[32m(found in cache)[0m[23m
+   2019-07-24T22:35:49.27+0530 [STG/0] OUT [1m[31m----->[0m[22m Downloading [1m[34mSpring Auto Reconfiguration[0m[22m [34m2.7.0_RELEASE[0m from https://java-buildpack.cloudfoundry.org/auto-reconfiguration/auto-reconfiguration-2.7.0-RELEASE.jar [3m[32m(found in cache)[0m[23m
+   2019-07-24T22:35:59.45+0530 [STG/0] OUT Exit status 0
+   2019-07-24T22:35:59.45+0530 [STG/0] OUT Uploading droplet, build artifacts cache...
+   2019-07-24T22:35:59.45+0530 [STG/0] OUT Uploading build artifacts cache...
+   2019-07-24T22:35:59.45+0530 [STG/0] OUT Uploading droplet...
+   2019-07-24T22:35:59.55+0530 [STG/0] OUT Uploaded build artifacts cache (130B)
+   2019-07-24T22:36:00.67+0530 [API/5] OUT Creating droplet for app with guid 7ce406c5-5a18-40e2-b62d-e45448cb72cb
+   2019-07-24T22:36:04.89+0530 [STG/0] OUT Uploaded droplet (75.9M)
+   2019-07-24T22:36:04.91+0530 [STG/0] OUT Uploading complete
+   2019-07-24T22:36:05.48+0530 [STG/0] OUT Cell 9434eb8f-e05d-4cda-8ee0-0c6a480f17b0 stopping instance cdae3b6a-e41f-4874-bd74-1427c151af90
+   2019-07-24T22:36:05.48+0530 [STG/0] OUT Cell 9434eb8f-e05d-4cda-8ee0-0c6a480f17b0 destroying container for instance cdae3b6a-e41f-4874-bd74-1427c151af90
+   2019-07-24T22:36:06.03+0530 [CELL/0] OUT Cell bb9ba5f3-3b45-4d57-b643-e05194d25df0 creating container for instance 341c732d-7b7d-4b67-6467-7bc7
+   2019-07-24T22:36:06.09+0530 [STG/0] OUT Cell 9434eb8f-e05d-4cda-8ee0-0c6a480f17b0 successfully destroyed container for instance cdae3b6a-e41f-4874-bd74-1427c151af90
+   2019-07-24T22:36:06.65+0530 [CELL/0] OUT Cell bb9ba5f3-3b45-4d57-b643-e05194d25df0 successfully created container for instance 341c732d-7b7d-4b67-6467-7bc7
+   2019-07-24T22:36:07.40+0530 [CELL/0] OUT Downloading droplet...
+   2019-07-24T22:36:10.30+0530 [CELL/0] OUT Downloaded droplet (75.9M)
+   2019-07-24T22:36:10.30+0530 [CELL/0] OUT Starting health monitoring of container
+   2019-07-24T22:36:10.82+0530 [APP/PROC/WEB/0] OUT JVM Memory Configuration: -Xmx425255K -Xss1M -XX:ReservedCodeCacheSize=240M -XX:MaxDirectMemorySize=10M -XX:MaxMetaspaceSize=111320K
+   2019-07-24T22:36:13.29+0530 [APP/PROC/WEB/0] OUT   .   ____          _            __ _ _
+   2019-07-24T22:36:13.29+0530 [APP/PROC/WEB/0] OUT  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+   2019-07-24T22:36:13.29+0530 [APP/PROC/WEB/0] OUT ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+   2019-07-24T22:36:13.29+0530 [APP/PROC/WEB/0] OUT  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+   2019-07-24T22:36:13.29+0530 [APP/PROC/WEB/0] OUT   '  |____| .__|_| |_|_| |_\__, | / / / /
+   2019-07-24T22:36:13.29+0530 [APP/PROC/WEB/0] OUT  =========|_|==============|___/=/_/_/_/
+   2019-07-24T22:36:13.30+0530 [APP/PROC/WEB/0] OUT  :: Spring Boot ::        (v2.0.6.RELEASE)
+   2019-07-24T22:36:13.77+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:13.764  INFO 6 --- [           main] pertySourceApplicationContextInitializer : 'cloud' property source added
+   2019-07-24T22:36:13.77+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:13.772  INFO 6 --- [           main] nfigurationApplicationContextInitializer : Reconfiguration enabled
+   2019-07-24T22:36:13.80+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:13.808  INFO 6 --- [           main] org.apache.struts.crud.Application       : Starting Application on 341c732d-7b7d-4b67-6467-7bc7 with PID 6 (/home/vcap/app/WEB-INF/classes started by vcap in /home/vcap/app)
+   2019-07-24T22:36:13.80+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:13.809  INFO 6 --- [           main] org.apache.struts.crud.Application       : The following profiles are active: cloud
+   2019-07-24T22:36:13.90+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:13.903  INFO 6 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f205aa: startup date [Wed Jul 24 17:06:13 UTC 2019]; root of context hierarchy
+   2019-07-24T22:36:15.42+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:15.427  INFO 6 --- [           main] o.c.r.o.s.c.s.r.PooledDataSourceCreator  : Found HikariCP on the classpath. Using it for DataSource connection pooling.
+   2019-07-24T22:36:15.45+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:15.455  INFO 6 --- [           main] o.c.reconfiguration.CloudServiceUtils    : 'dataSource' bean of type with 'javax.sql.DataSource' reconfigured with 'struts-mysql' bean
+   2019-07-24T22:36:15.71+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:15.712  INFO 6 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$79035c81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+   2019-07-24T22:36:16.60+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:16.608  INFO 6 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+   2019-07-24T22:36:16.66+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:16.662  INFO 6 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+   2019-07-24T22:36:16.66+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:16.663  INFO 6 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+   2019-07-24T22:36:16.69+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:16.692  INFO 6 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+   2019-07-24T22:36:17.64+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:17.642  INFO 6 --- [ost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+   2019-07-24T22:36:17.66+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:17.668  INFO 6 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+   2019-07-24T22:36:17.66+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:17.668  INFO 6 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3770 ms
+   2019-07-24T22:36:17.96+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:17.969  INFO 6 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'clientCertificateMapper' to: [/*]
+   2019-07-24T22:36:17.97+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:17.970  INFO 6 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+   2019-07-24T22:36:17.97+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:17.970  INFO 6 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+   2019-07-24T22:36:17.97+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:17.970  INFO 6 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+   2019-07-24T22:36:17.97+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:17.973  INFO 6 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+   2019-07-24T22:36:17.97+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:17.973  INFO 6 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'strutsPrepareAndExecuteFilter' to urls: [/*]
+   2019-07-24T22:36:17.97+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:17.973  INFO 6 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+   2019-07-24T22:36:18.59+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:18.595  INFO 6 --- [ost-startStop-1] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:36:18.59+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:18.596  INFO 6 --- [ost-startStop-1] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:36:18.59+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:18.596  INFO 6 --- [ost-startStop-1] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:36:19.95+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:19.947  INFO 6 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+   2019-07-24T22:36:20.42+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:20.421  INFO 6 --- [           main] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Driver does not support get/set network timeout for connections. (com.mysql.jdbc.JDBC4Connection.getNetworkTimeout()I)
+   2019-07-24T22:36:20.44+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:20.443  INFO 6 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+   2019-07-24T22:36:20.62+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:20.626  INFO 6 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+   2019-07-24T22:36:20.66+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:20.661  INFO 6 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+   2019-07-24T22:36:20.66+0530 [APP/PROC/WEB/0] OUT 	name: default
+   2019-07-24T22:36:20.66+0530 [APP/PROC/WEB/0] OUT 	...]
+   2019-07-24T22:36:20.81+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:20.812  INFO 6 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+   2019-07-24T22:36:20.81+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:20.815  INFO 6 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+   2019-07-24T22:36:20.89+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:20.897  INFO 6 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+   2019-07-24T22:36:21.25+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:21.256  INFO 6 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+   2019-07-24T22:36:21.32+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:21.321  INFO 6 --- [           main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+   2019-07-24T22:36:21.79+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:21.792  INFO 6 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+   2019-07-24T22:36:22.24+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:22.248  INFO 6 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+   2019-07-24T22:36:22.72+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:22.720  INFO 6 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5f205aa: startup date [Wed Jul 24 17:06:13 UTC 2019]; root of context hierarchy
+   2019-07-24T22:36:22.79+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:22.795  WARN 6 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+   2019-07-24T22:36:22.87+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:22.873  INFO 6 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+   2019-07-24T22:36:22.87+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:22.875  INFO 6 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+   2019-07-24T22:36:22.92+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:22.926  INFO 6 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+   2019-07-24T22:36:22.92+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:22.926  INFO 6 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+   2019-07-24T22:36:23.71+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:23.716  INFO 6 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+   2019-07-24T22:36:23.82+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:23.821  INFO 6 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+   2019-07-24T22:36:23.83+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:23.830  INFO 6 --- [           main] org.apache.struts.crud.Application       : Started Application in 11.654 seconds (JVM running for 12.98)
+   2019-07-24T22:36:25.19+0530 [CELL/0] OUT Container became healthy
+   2019-07-24T22:36:39.74+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:39.749  INFO 6 --- [nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+   2019-07-24T22:36:39.75+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:39.749  INFO 6 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+   2019-07-24T22:36:39.81+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:39.819  INFO 6 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 70 ms
+   2019-07-24T22:36:39.95+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:39.954  INFO 6 --- [nio-8080-exec-3] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:36:40.08+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:40.086  INFO 6 --- [nio-8080-exec-3] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:36:40.08+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:40.086  INFO 6 --- [nio-8080-exec-3] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:36:40.08+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:40.086  INFO 6 --- [nio-8080-exec-3] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:36:42.05+0530 [RTR/9] OUT struts-grouchy-nyala.cfapps.io - [2019-07-24T17:06:39.699+0000] "GET / HTTP/1.1" 200 0 349 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.10.66.62:55380" "10.10.148.187:61030" x_forwarded_for:"106.51.28.235, 10.10.66.62" x_forwarded_proto:"https" vcap_request_id:"49dc4715-cb1e-4e68-5dba-2aafacf1fc74" response_time:2.357208362 app_id:"7ce406c5-5a18-40e2-b62d-e45448cb72cb" app_index:"0" x_b3_traceid:"225aaa6410f9b9ae" x_b3_spanid:"225aaa6410f9b9ae" x_b3_parentspanid:"-" b3:"225aaa6410f9b9ae-225aaa6410f9b9ae"
+   2019-07-24T22:36:42.05+0530 [RTR/9] OUT 
+   2019-07-24T22:36:43.79+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:43.798  INFO 6 --- [nio-8080-exec-4] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:36:43.87+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:43.878  INFO 6 --- [nio-8080-exec-4] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:36:43.87+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:43.878  INFO 6 --- [nio-8080-exec-4] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:36:43.87+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:43.878  INFO 6 --- [nio-8080-exec-4] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:36:43.98+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:43.985  INFO 6 --- [nio-8080-exec-4] o.a.struts.crud.action.PersonAction      : Prepared support data for Person entity.
+   2019-07-24T22:36:43.98+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:43.989  INFO 6 --- [nio-8080-exec-4] o.a.struts.crud.action.PersonAction      : Listing persons
+   2019-07-24T22:36:44.47+0530 [RTR/1] OUT struts-grouchy-nyala.cfapps.io - [2019-07-24T17:06:43.787+0000] "GET /index.action HTTP/1.1" 200 0 3436 "https://struts-grouchy-nyala.cfapps.io/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.10.66.62:1718" "10.10.148.187:61030" x_forwarded_for:"106.51.28.235, 10.10.66.62" x_forwarded_proto:"https" vcap_request_id:"c36b176d-3a1b-4b15-4bae-548b9ae376ce" response_time:0.682611328 app_id:"7ce406c5-5a18-40e2-b62d-e45448cb72cb" app_index:"0" x_b3_traceid:"faac6fc410204ea8" x_b3_spanid:"faac6fc410204ea8" x_b3_parentspanid:"-" b3:"faac6fc410204ea8-faac6fc410204ea8"
+   2019-07-24T22:36:44.47+0530 [RTR/1] OUT 
+   2019-07-24T22:36:44.95+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:44.950  INFO 6 --- [nio-8080-exec-5] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:36:45.01+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:45.013  INFO 6 --- [nio-8080-exec-5] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:36:45.01+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:45.014  INFO 6 --- [nio-8080-exec-5] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:36:45.01+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:45.014  INFO 6 --- [nio-8080-exec-5] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:36:45.06+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:45.064  INFO 6 --- [nio-8080-exec-6] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:45.081 ERROR 6 --- [nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT java.lang.NullPointerException: null
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.DefaultStaticContentLoader.findStaticResource(DefaultStaticContentLoader.java:199) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.ExecuteOperations.executeStaticResourceRequest(ExecuteOperations.java:59) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:128) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.cloudfoundry.router.ClientCertificateMapper.doFilter(ClientCertificateMapper.java:77) ~[client_certificate_mapper-1.8.0_RELEASE.jar!/:1.8.0.RELEASE]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:685) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.08+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+   2019-07-24T22:36:45.13+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:45.134  INFO 6 --- [nio-8080-exec-6] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:36:45.13+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:45.138  INFO 6 --- [nio-8080-exec-6] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:36:45.13+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:45.139  INFO 6 --- [nio-8080-exec-6] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:45.179 ERROR 6 --- [nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT java.lang.NullPointerException: null
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.DefaultStaticContentLoader.findStaticResource(DefaultStaticContentLoader.java:199) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.ExecuteOperations.executeStaticResourceRequest(ExecuteOperations.java:59) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:128) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.17+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.cloudfoundry.router.ClientCertificateMapper.doFilter(ClientCertificateMapper.java:77) ~[client_certificate_mapper-1.8.0_RELEASE.jar!/:1.8.0.RELEASE]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:685) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:45.18+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+   2019-07-24T22:36:45.33+0530 [RTR/11] OUT struts-grouchy-nyala.cfapps.io - [2019-07-24T17:06:44.940+0000] "GET /struts/xhtml/styles.css HTTP/1.1" 500 0 156 "https://struts-grouchy-nyala.cfapps.io/index.action" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.10.66.62:12128" "10.10.148.187:61030" x_forwarded_for:"106.51.28.235, 10.10.66.62" x_forwarded_proto:"https" vcap_request_id:"e9e1b3f5-6774-41fb-4d0c-fa64f6ccb3d3" response_time:0.393348494 app_id:"7ce406c5-5a18-40e2-b62d-e45448cb72cb" app_index:"0" x_b3_traceid:"d24a9b3f42b8abaa" x_b3_spanid:"d24a9b3f42b8abaa" x_b3_parentspanid:"-" b3:"d24a9b3f42b8abaa-d24a9b3f42b8abaa"
+   2019-07-24T22:36:45.33+0530 [RTR/11] OUT 
+   2019-07-24T22:36:45.33+0530 [RTR/4] OUT struts-grouchy-nyala.cfapps.io - [2019-07-24T17:06:44.941+0000] "GET /struts/utils.js HTTP/1.1" 500 0 148 "https://struts-grouchy-nyala.cfapps.io/index.action" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.10.66.62:44638" "10.10.148.187:61030" x_forwarded_for:"106.51.28.235, 10.10.66.62" x_forwarded_proto:"https" vcap_request_id:"8e6fc653-09a2-4885-7a3a-560976f33422" response_time:0.394500042 app_id:"7ce406c5-5a18-40e2-b62d-e45448cb72cb" app_index:"0" x_b3_traceid:"d827fbd57686ff01" x_b3_spanid:"d827fbd57686ff01" x_b3_parentspanid:"-" b3:"d827fbd57686ff01-d827fbd57686ff01"
+   2019-07-24T22:36:45.33+0530 [RTR/4] OUT 
+   2019-07-24T22:36:47.70+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:47.703  INFO 6 --- [nio-8080-exec-7] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:36:47.77+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:47.778  INFO 6 --- [nio-8080-exec-7] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:36:47.77+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:47.779  INFO 6 --- [nio-8080-exec-7] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:36:47.77+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:47.779  INFO 6 --- [nio-8080-exec-7] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:47.873 ERROR 6 --- [nio-8080-exec-7] c.o.xwork2.spring.SpringObjectFactory    : Error building bean
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.apache.struts.crud.model.Person': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.Integer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:733) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:198) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1266) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowire(AbstractAutowireCapableBeanFactory.java:362) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.spring.SpringObjectFactory.buildBean(SpringObjectFactory.java:200) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler.createObject(InstantiatingNullHandler.java:152) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler.nullPropertyValue(InstantiatingNullHandler.java:128) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlNullHandlerWrapper.nullPropertyValue(OgnlNullHandlerWrapper.java:39) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at ognl.ASTProperty.getValueBody(ASTProperty.java:118) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.getValue(SimpleNode.java:258) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at ognl.ASTChain.setValueBody(ASTChain.java:222) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.evaluateSetValueBody(SimpleNode.java:220) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.setValue(SimpleNode.java:301) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at ognl.Ognl.setValue(Ognl.java:713) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil$1.execute(OgnlUtil.java:345) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil$1.execute(OgnlUtil.java:337) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil.compileAndExecute(OgnlUtil.java:432) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil.setValue(OgnlUtil.java:337) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.trySetValue(OgnlValueStack.java:188) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:175) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.setParameter(OgnlValueStack.java:157) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.setParameters(ParametersInterceptor.java:211) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:129) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:99) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:67) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.DateTextFieldInterceptor.intercept(DateTextFieldInterceptor.java:133) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:89) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:121) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:203) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:196) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.factory.StrutsActionProxy.execute(StrutsActionProxy.java:48) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:574) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.ExecuteOperations.executeAction(ExecuteOperations.java:79) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:141) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.cloudfoundry.router.ClientCertificateMapper.doFilter(ClientCertificateMapper.java:77) [client_certificate_mapper-1.8.0_RELEASE.jar!/:1.8.0.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:685) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.Integer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1506) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:819) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:725) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.87+0530 [APP/PROC/WEB/0] OUT 	... 79 common frames omitted
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:47.878 ERROR 6 --- [nio-8080-exec-7] c.o.x.c.impl.InstantiatingNullHandler    : Could not create and/or set value back on to object
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT java.lang.InstantiationException: org.apache.struts.crud.model.Person
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Class.newInstance(Class.java:427) ~[na:1.8.0_222]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ObjectFactory.buildBean(ObjectFactory.java:154) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.spring.SpringObjectFactory.buildBean(SpringObjectFactory.java:207) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler.createObject(InstantiatingNullHandler.java:152) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler.nullPropertyValue(InstantiatingNullHandler.java:128) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlNullHandlerWrapper.nullPropertyValue(OgnlNullHandlerWrapper.java:39) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at ognl.ASTProperty.getValueBody(ASTProperty.java:118) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.getValue(SimpleNode.java:258) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at ognl.ASTChain.setValueBody(ASTChain.java:222) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.evaluateSetValueBody(SimpleNode.java:220) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.setValue(SimpleNode.java:301) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at ognl.Ognl.setValue(Ognl.java:713) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil$1.execute(OgnlUtil.java:345) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil$1.execute(OgnlUtil.java:337) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil.compileAndExecute(OgnlUtil.java:432) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil.setValue(OgnlUtil.java:337) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.trySetValue(OgnlValueStack.java:188) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:175) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.setParameter(OgnlValueStack.java:157) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.setParameters(ParametersInterceptor.java:211) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:129) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:99) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:67) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.DateTextFieldInterceptor.intercept(DateTextFieldInterceptor.java:133) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:89) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:121) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:203) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:196) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.factory.StrutsActionProxy.execute(StrutsActionProxy.java:48) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:574) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.ExecuteOperations.executeAction(ExecuteOperations.java:79) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:141) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.cloudfoundry.router.ClientCertificateMapper.doFilter(ClientCertificateMapper.java:77) [client_certificate_mapper-1.8.0_RELEASE.jar!/:1.8.0.RELEASE]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:685) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT Caused by: java.lang.NoSuchMethodException: org.apache.struts.crud.model.Person.<init>()
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Class.getConstructor0(Class.java:3082) ~[na:1.8.0_222]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Class.newInstance(Class.java:412) ~[na:1.8.0_222]
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 	... 77 common frames omitted
+   2019-07-24T22:36:47.88+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:47.885  WARN 6 --- [nio-8080-exec-7] c.o.x.u.AbstractLocalizedTextProvider    : Missing key [devmode.notification] in bundle [org.apache.struts.crud.action.PersonAction]!
+   2019-07-24T22:36:47.97+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:47.976 ERROR 6 --- [nio-8080-exec-7] c.o.x.interceptor.ParametersInterceptor  : Developer Notification (set struts.devMode to false to disable this message):
+   2019-07-24T22:36:47.97+0530 [APP/PROC/WEB/0] OUT Unexpected Exception caught setting 'person.personId' on 'class org.apache.struts.crud.action.PersonAction$$EnhancerBySpringCGLIB$$ce109f12: Error setting expression 'person.personId' with value ['1', ]
+   2019-07-24T22:36:47.97+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:47.977  INFO 6 --- [nio-8080-exec-7] o.a.struts.crud.action.PersonAction      : Prepared support data for Person entity.
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:47.988 ERROR 6 --- [nio-8080-exec-7] c.o.xwork2.spring.SpringObjectFactory    : Error building bean
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.apache.struts.crud.model.Person': Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.Integer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:733) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:198) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1266) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowire(AbstractAutowireCapableBeanFactory.java:362) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.spring.SpringObjectFactory.buildBean(SpringObjectFactory.java:200) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler.createObject(InstantiatingNullHandler.java:152) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler.nullPropertyValue(InstantiatingNullHandler.java:128) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlNullHandlerWrapper.nullPropertyValue(OgnlNullHandlerWrapper.java:39) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at ognl.ASTProperty.getValueBody(ASTProperty.java:118) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.getValue(SimpleNode.java:258) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at ognl.ASTChain.setValueBody(ASTChain.java:222) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.evaluateSetValueBody(SimpleNode.java:220) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.setValue(SimpleNode.java:301) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at ognl.Ognl.setValue(Ognl.java:713) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil$1.execute(OgnlUtil.java:345) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil$1.execute(OgnlUtil.java:337) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil.compileAndExecute(OgnlUtil.java:432) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil.setValue(OgnlUtil.java:337) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.trySetValue(OgnlValueStack.java:188) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:175) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.setParameter(OgnlValueStack.java:157) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.setParameters(ParametersInterceptor.java:211) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:129) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:99) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:137) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:99) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:201) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:243) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:101) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:160) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:175) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:99) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:167) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:137) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:99) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:67) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.DateTextFieldInterceptor.intercept(DateTextFieldInterceptor.java:133) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:89) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:121) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:203) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:196) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.factory.StrutsActionProxy.execute(StrutsActionProxy.java:48) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:574) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.ExecuteOperations.executeAction(ExecuteOperations.java:79) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:141) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.cloudfoundry.router.ClientCertificateMapper.doFilter(ClientCertificateMapper.java:77) [client_certificate_mapper-1.8.0_RELEASE.jar!/:1.8.0.RELEASE]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.98+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:685) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'java.lang.Integer' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1506) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1101) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1062) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:819) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:725) ~[spring-beans-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:47.99+0530 [APP/PROC/WEB/0] OUT 	... 98 common frames omitted
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:48.002 ERROR 6 --- [nio-8080-exec-7] c.o.x.c.impl.InstantiatingNullHandler    : Could not create and/or set value back on to object
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT java.lang.InstantiationException: org.apache.struts.crud.model.Person
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Class.newInstance(Class.java:427) ~[na:1.8.0_222]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ObjectFactory.buildBean(ObjectFactory.java:154) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.spring.SpringObjectFactory.buildBean(SpringObjectFactory.java:207) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler.createObject(InstantiatingNullHandler.java:152) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.conversion.impl.InstantiatingNullHandler.nullPropertyValue(InstantiatingNullHandler.java:128) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlNullHandlerWrapper.nullPropertyValue(OgnlNullHandlerWrapper.java:39) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at ognl.ASTProperty.getValueBody(ASTProperty.java:118) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.evaluateGetValueBody(SimpleNode.java:212) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.getValue(SimpleNode.java:258) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at ognl.ASTChain.setValueBody(ASTChain.java:222) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.evaluateSetValueBody(SimpleNode.java:220) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at ognl.SimpleNode.setValue(SimpleNode.java:301) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at ognl.Ognl.setValue(Ognl.java:713) [ognl-3.1.15.jar!/:na]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil$1.execute(OgnlUtil.java:345) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil$1.execute(OgnlUtil.java:337) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil.compileAndExecute(OgnlUtil.java:432) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlUtil.setValue(OgnlUtil.java:337) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.trySetValue(OgnlValueStack.java:188) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.setValue(OgnlValueStack.java:175) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.ognl.OgnlValueStack.setParameter(OgnlValueStack.java:157) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.setParameters(ParametersInterceptor.java:211) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:129) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:99) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:137) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:99) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.StaticParametersInterceptor.intercept(StaticParametersInterceptor.java:201) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.FileUploadInterceptor.intercept(FileUploadInterceptor.java:243) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ModelDrivenInterceptor.intercept(ModelDrivenInterceptor.java:101) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ChainingInterceptor.intercept(ChainingInterceptor.java:160) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.PrepareInterceptor.doIntercept(PrepareInterceptor.java:175) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:99) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.ServletConfigInterceptor.intercept(ServletConfigInterceptor.java:167) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ParametersInterceptor.doIntercept(ParametersInterceptor.java:137) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.MethodFilterInterceptor.intercept(MethodFilterInterceptor.java:99) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.MultiselectInterceptor.intercept(MultiselectInterceptor.java:67) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.DateTextFieldInterceptor.intercept(DateTextFieldInterceptor.java:133) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.CheckboxInterceptor.intercept(CheckboxInterceptor.java:89) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.interceptor.I18nInterceptor.intercept(I18nInterceptor.java:121) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.AliasInterceptor.intercept(AliasInterceptor.java:203) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.interceptor.ExceptionMappingInterceptor.intercept(ExceptionMappingInterceptor.java:196) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at com.opensymphony.xwork2.DefaultActionInvocation.invoke(DefaultActionInvocation.java:249) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.factory.StrutsActionProxy.execute(StrutsActionProxy.java:48) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:574) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.ExecuteOperations.executeAction(ExecuteOperations.java:79) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:141) [struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.cloudfoundry.router.ClientCertificateMapper.doFilter(ClientCertificateMapper.java:77) [client_certificate_mapper-1.8.0_RELEASE.jar!/:1.8.0.RELEASE]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:685) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT Caused by: java.lang.NoSuchMethodException: org.apache.struts.crud.model.Person.<init>()
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Class.getConstructor0(Class.java:3082) ~[na:1.8.0_222]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Class.newInstance(Class.java:412) ~[na:1.8.0_222]
+   2019-07-24T22:36:48.00+0530 [APP/PROC/WEB/0] OUT 	... 96 common frames omitted
+   2019-07-24T22:36:48.01+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:48.010  WARN 6 --- [nio-8080-exec-7] c.o.x.u.AbstractLocalizedTextProvider    : Missing key [devmode.notification] in bundle [org.apache.struts.crud.action.PersonAction]!
+   2019-07-24T22:36:48.01+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:48.010 ERROR 6 --- [nio-8080-exec-7] c.o.x.interceptor.ParametersInterceptor  : Developer Notification (set struts.devMode to false to disable this message):
+   2019-07-24T22:36:48.01+0530 [APP/PROC/WEB/0] OUT Unexpected Exception caught setting 'person.personId' on 'class org.apache.struts.crud.action.PersonAction$$EnhancerBySpringCGLIB$$ce109f12: Error setting expression 'person.personId' with value ['1', ]
+   2019-07-24T22:36:48.97+0530 [RTR/1] OUT struts-grouchy-nyala.cfapps.io - [2019-07-24T17:06:47.699+0000] "GET /inputPerson.action?person.personId=1 HTTP/1.1" 200 0 5655 "https://struts-grouchy-nyala.cfapps.io/index.action" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.10.66.62:63800" "10.10.148.187:61030" x_forwarded_for:"106.51.28.235, 10.10.66.62" x_forwarded_proto:"https" vcap_request_id:"1d746dd7-22c8-4e94-5c89-ff3dafe801b9" response_time:1.27263933 app_id:"7ce406c5-5a18-40e2-b62d-e45448cb72cb" app_index:"0" x_b3_traceid:"2690fffb4513491d" x_b3_spanid:"2690fffb4513491d" x_b3_parentspanid:"-" b3:"2690fffb4513491d-2690fffb4513491d"
+   2019-07-24T22:36:48.97+0530 [RTR/1] OUT 
+   2019-07-24T22:36:49.45+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:49.456  INFO 6 --- [nio-8080-exec-8] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:36:49.53+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:49.533  INFO 6 --- [nio-8080-exec-8] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:36:49.53+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:49.533  INFO 6 --- [nio-8080-exec-8] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:36:49.53+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:49.533  INFO 6 --- [nio-8080-exec-8] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:49.569  INFO 6 --- [nio-8080-exec-9] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:49.570 ERROR 6 --- [nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT java.lang.NullPointerException: null
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.DefaultStaticContentLoader.findStaticResource(DefaultStaticContentLoader.java:199) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.ExecuteOperations.executeStaticResourceRequest(ExecuteOperations.java:59) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:128) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.cloudfoundry.router.ClientCertificateMapper.doFilter(ClientCertificateMapper.java:77) ~[client_certificate_mapper-1.8.0_RELEASE.jar!/:1.8.0.RELEASE]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:685) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.57+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+   2019-07-24T22:36:49.57+0530 [RTR/1] OUT struts-grouchy-nyala.cfapps.io - [2019-07-24T17:06:49.452+0000] "GET /struts/utils.js HTTP/1.1" 500 0 148 "https://struts-grouchy-nyala.cfapps.io/inputPerson.action?person.personId=1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.10.66.62:63800" "10.10.148.187:61030" x_forwarded_for:"106.51.28.235, 10.10.66.62" x_forwarded_proto:"https" vcap_request_id:"ad6769f8-2a53-49b7-5f07-153ac156eb07" response_time:0.123732754 app_id:"7ce406c5-5a18-40e2-b62d-e45448cb72cb" app_index:"0" x_b3_traceid:"6f903ac15bef2e36" x_b3_spanid:"6f903ac15bef2e36" x_b3_parentspanid:"-" b3:"6f903ac15bef2e36-6f903ac15bef2e36"
+   2019-07-24T22:36:49.57+0530 [RTR/1] OUT 
+   2019-07-24T22:36:49.61+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:49.618  INFO 6 --- [nio-8080-exec-9] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:36:49.61+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:49.618  INFO 6 --- [nio-8080-exec-9] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:36:49.61+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:49.619  INFO 6 --- [nio-8080-exec-9] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:06:49.677 ERROR 6 --- [nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT java.lang.NullPointerException: null
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.DefaultStaticContentLoader.findStaticResource(DefaultStaticContentLoader.java:199) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.ExecuteOperations.executeStaticResourceRequest(ExecuteOperations.java:59) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:128) ~[struts2-core-2.5.18.jar!/:2.5.18]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.0.10.RELEASE.jar!/:5.0.10.RELEASE]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.cloudfoundry.router.ClientCertificateMapper.doFilter(ClientCertificateMapper.java:77) ~[client_certificate_mapper-1.8.0_RELEASE.jar!/:1.8.0.RELEASE]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:685) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_222]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_222]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.34.jar!/:8.5.34]
+   2019-07-24T22:36:49.67+0530 [APP/PROC/WEB/0] OUT 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_222]
+   2019-07-24T22:36:49.68+0530 [RTR/6] OUT struts-grouchy-nyala.cfapps.io - [2019-07-24T17:06:49.456+0000] "GET /struts/xhtml/styles.css HTTP/1.1" 500 0 156 "https://struts-grouchy-nyala.cfapps.io/inputPerson.action?person.personId=1" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.10.66.62:4902" "10.10.148.187:61030" x_forwarded_for:"106.51.28.235, 10.10.66.62" x_forwarded_proto:"https" vcap_request_id:"2fee968e-bca4-41a5-6c39-299f17a90d5d" response_time:0.225475634 app_id:"7ce406c5-5a18-40e2-b62d-e45448cb72cb" app_index:"0" x_b3_traceid:"428f7414f2ecba3c" x_b3_spanid:"428f7414f2ecba3c" x_b3_parentspanid:"-" b3:"428f7414f2ecba3c-428f7414f2ecba3c"
+   2019-07-24T22:36:49.68+0530 [RTR/6] OUT 
+   2019-07-24T22:42:36.28+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.287  INFO 6 --- [nio-8080-exec-3] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:42:36.32+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.325  INFO 6 --- [nio-8080-exec-3] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:42:36.32+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.325  INFO 6 --- [nio-8080-exec-3] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:42:36.32+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.325  INFO 6 --- [nio-8080-exec-3] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:42:36.36+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.368  INFO 6 --- [nio-8080-exec-3] o.a.struts.crud.action.PersonAction      : Prepared support data for Person entity.
+   2019-07-24T22:42:36.36+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.368  INFO 6 --- [nio-8080-exec-3] o.a.struts.crud.action.PersonAction      : Listing persons
+   2019-07-24T22:42:36.39+0530 [RTR/1] OUT struts-grouchy-nyala.cfapps.io - [2019-07-24T17:12:36.277+0000] "OPTIONS /cloudfoundryapplication HTTP/1.1" 405 0 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.10.66.62:3630" "10.10.148.187:61030" x_forwarded_for:"106.51.28.235, 10.10.66.62" x_forwarded_proto:"https" vcap_request_id:"2490acc8-ec77-4335-6aea-1446b66f3f4d" response_time:0.120511853 app_id:"7ce406c5-5a18-40e2-b62d-e45448cb72cb" app_index:"0" x_b3_traceid:"e1a003bbb8189eaf" x_b3_spanid:"e1a003bbb8189eaf" x_b3_parentspanid:"-" b3:"e1a003bbb8189eaf-e1a003bbb8189eaf"
+   2019-07-24T22:42:36.39+0530 [RTR/1] OUT 
+   2019-07-24T22:42:36.64+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.648  INFO 6 --- [nio-8080-exec-4] c.o.xwork2.config.ConfigurationManager   : Detected container provider [Struts XML configuration provider (struts-default.xml)] needs to be reloaded. Reloading all providers.
+   2019-07-24T22:42:36.67+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.676  INFO 6 --- [nio-8080-exec-4] o.a.s.spring.StrutsSpringObjectFactory   : Initializing Struts-Spring integration...
+   2019-07-24T22:42:36.67+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.677  INFO 6 --- [nio-8080-exec-4] c.o.xwork2.spring.SpringObjectFactory    : Setting autowire strategy to name
+   2019-07-24T22:42:36.67+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.677  INFO 6 --- [nio-8080-exec-4] o.a.s.spring.StrutsSpringObjectFactory   : ... initialized Struts-Spring integration successfully
+   2019-07-24T22:42:36.70+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.699  INFO 6 --- [nio-8080-exec-4] o.a.struts.crud.action.PersonAction      : Prepared support data for Person entity.
+   2019-07-24T22:42:36.70+0530 [APP/PROC/WEB/0] OUT 2019-07-24 17:12:36.700  INFO 6 --- [nio-8080-exec-4] o.a.struts.crud.action.PersonAction      : Listing persons
+   2019-07-24T22:42:36.71+0530 [RTR/0] OUT struts-grouchy-nyala.cfapps.io - [2019-07-24T17:12:36.639+0000] "OPTIONS /cloudfoundryapplication HTTP/1.1" 405 0 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.10.66.62:18086" "10.10.148.187:61030" x_forwarded_for:"106.51.28.235, 10.10.66.62" x_forwarded_proto:"https" vcap_request_id:"a38b90a0-3046-42b8-6349-1237580e0093" response_time:0.070905778 app_id:"7ce406c5-5a18-40e2-b62d-e45448cb72cb" app_index:"0" x_b3_traceid:"26fad8a11004fe73" x_b3_spanid:"26fad8a11004fe73" x_b3_parentspanid:"-" b3:"26fad8a11004fe73-26fad8a11004fe73"
+   2019-07-24T22:42:36.71+0530 [RTR/0] OUT 
