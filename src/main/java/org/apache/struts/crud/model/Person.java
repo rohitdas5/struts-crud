@@ -1,10 +1,7 @@
 package org.apache.struts.crud.model;
 
-import org.apache.struts.crud.service.DefaultPersonService;
-
 import javax.persistence.Entity;
-import javax.persistence.PersistenceContext;
-import javax.persistence.Table;
+import javax.persistence.Id;
 import java.util.Arrays;
 
 /**
@@ -18,8 +15,8 @@ import java.util.Arrays;
 @Entity
 public class Person implements Cloneable {
 
-
-    private Integer personId;
+    @Id
+    private Long personId;
     private String firstName;
     private String lastName;
     private String sport;
@@ -31,7 +28,7 @@ public class Person implements Cloneable {
     private String phoneNumber;
 
 
-    public Person(Integer id, String firstName, String lastName, String sport,
+    public Person(Long id, String firstName, String lastName, String sport,
                 String gender, Country country, boolean over21, String[] carModels,
                 String email, String phoneNumber) {
         this.personId = id;
@@ -46,11 +43,11 @@ public class Person implements Cloneable {
         this.phoneNumber = phoneNumber;
     }
     
-    public Integer getPersonId() {
+    public Long getPersonId() {
         return personId;
     }
 
-    public void setPersonId(Integer personId) {
+    public void setPersonId(Long personId) {
         this.personId = personId;
     }
 

@@ -2,7 +2,7 @@ package org.apache.struts.crud.dao;
 
 //import java.util.Map;
 import org.apache.struts.crud.model.Country;
-import org.springframework.stereotype.Repository;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * Methods a PersonSupportDao class must implement to provide
@@ -13,13 +13,13 @@ import org.springframework.stereotype.Repository;
  */
 
 public interface PersonSupportDao {
-
+    @Autowired
     Country[] getCountries();
-    
+    @Autowired
     String[] getCarModels();
-    
+    @Autowired
     String[] getSports();
-    
+    @Autowired
     String[] getGenders();
     
 }

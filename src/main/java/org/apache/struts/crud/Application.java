@@ -1,6 +1,5 @@
 package org.apache.struts.crud;
 
-import com.opensymphony.sitemesh.webapp.SiteMeshFilter;
 import org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,8 +7,8 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
 import javax.servlet.Filter;
-
-import static java.util.Collections.singletonList;
+import java.util.ArrayList;
+import java.util.List;
 
 @SpringBootApplication
 public class Application {
@@ -26,7 +25,23 @@ public class Application {
     private FilterRegistrationBean buildFilterRegistration(int order, Filter filter) {
         FilterRegistrationBean registration = new FilterRegistrationBean();
         registration.setFilter(filter);
-        registration.setUrlPatterns(singletonList("/*"));
+
+        List<String> urls = new ArrayList<String>();
+
+        urls.add("/");
+        urls.add("/persons.jsp");
+        urls.add("/persons.action");
+        urls.add("/editPerson.jsp");
+        urls.add("/editPerson.action");
+        urls.add("/index.jsp");
+        urls.add("/index.action");
+        urls.add("/inputPerson.action");
+        urls.add("/deletePerson.action");
+        urls.add("/savePerson.action");
+        urls.add("/deletePerson.action");
+
+        registration.setUrlPatterns(urls);
+        /*registration.setUrlPatterns(singletonList("/*"));*/
         registration.setOrder(order);
         return registration;
     }

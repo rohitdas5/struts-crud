@@ -1,13 +1,13 @@
 package org.apache.struts.crud.dao;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.struts.crud.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * In memory data repository for Person objects.
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Repository;
  * @author bruce phillips
  * @author antonio sanchez
  */
-@Repository
+@Repository("personDao")
 public class MemoryPersonDao implements PersonDao {
     private static final Logger LOG = LogManager.getLogger(MemoryPersonDao.class.getName());
 
@@ -24,12 +24,12 @@ public class MemoryPersonDao implements PersonDao {
 
     static {
         persons = new ArrayList<>();
-        persons.add(new Person(1, "Bruce", "Phillips", "basketball", "male", MemoryPersonSupportDao.getCountry("US"), true, new String[]{"Ford", "Nissan"}, "bphillips@ku.edu", "123-456-9999"));
-        persons.add(new Person(2, "Antonio", "Sanchez", "mtb", "male", MemoryPersonSupportDao.getCountry("ES"), true, new String[]{"Toyota", "Seat"}, "asanchez@correo-e.es", "555-999-8888"));
+        persons.add(new Person(1L, "Bruce", "Phillips", "basketball", "male", MemoryPersonSupportDao.getCountry("US"), true, new String[]{"Ford", "Nissan"}, "bphillips@ku.edu", "123-456-9999"));
+        persons.add(new Person(2L, "Antonio", "Sanchez", "mtb", "male", MemoryPersonSupportDao.getCountry("ES"), true, new String[]{"Toyota", "Seat"}, "asanchez@correo-e.es", "555-999-8888"));
     }
 
     @Override
-    public Person getPerson(Integer id) {
+    public Person getPerson(Long id) {
         for (Person p : persons) {
             if (p.getPersonId().equals(id)) {
                 try {
@@ -49,7 +49,7 @@ public class MemoryPersonDao implements PersonDao {
 
     @Override
     public void updatePerson(Person person) {
-        Integer id = person.getPersonId();
+        Long id = person.getPersonId();
         for (int i = 0; i < persons.size(); i++) {
             Person p = persons.get(i);
             if (p.getPersonId().equals(id)) {
@@ -62,7 +62,7 @@ public class MemoryPersonDao implements PersonDao {
 
     @Override
     public void insertPerson(Person person) {
-        int lastId = 0;
+        long lastId = 0;
         for (Person p : persons) {
             if (p.getPersonId() > lastId) {
                 lastId = p.getPersonId();
@@ -74,7 +74,7 @@ public class MemoryPersonDao implements PersonDao {
     }
 
     @Override
-    public void deletePerson(Integer id) {
+    public void deletePerson(Long id) {
         for (int i = 0; i < persons.size(); i++) {
             Person person = persons.get(i);
             if (person.getPersonId().equals(id)) {

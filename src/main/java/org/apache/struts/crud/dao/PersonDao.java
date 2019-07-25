@@ -1,7 +1,7 @@
 package org.apache.struts.crud.dao;
 
 import org.apache.struts.crud.model.Person;
-import org.springframework.stereotype.Repository;
+import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * Data access methods that a PersonDao class
@@ -13,14 +13,15 @@ import org.springframework.stereotype.Repository;
  */
 
 public interface PersonDao {
-    
-    Person getPerson(Integer id);
-    
-    Person[] getAllPersons();
 
+    @Autowired
+    Person getPerson(Long id);
+    @Autowired
+    Person[] getAllPersons();
+    @Autowired
     void updatePerson(Person personBean);
-    
+    @Autowired
     void insertPerson(Person personBean);
-    
-    void deletePerson(Integer id);
+    @Autowired
+    void deletePerson(Long id);
 }

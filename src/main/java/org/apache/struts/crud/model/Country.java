@@ -1,7 +1,6 @@
 package org.apache.struts.crud.model;
 
 import javax.persistence.Entity;
-import javax.persistence.Table;
 
 /**
  * Model a country.

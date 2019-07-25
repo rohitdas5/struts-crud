@@ -7,11 +7,7 @@ import org.apache.struts.crud.dao.PersonSupportDao;
 import org.apache.struts.crud.model.Country;
 import org.apache.struts.crud.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
-
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
 
 /**
  * Implement Services needed to edit and save
@@ -33,7 +29,7 @@ public class DefaultPersonService implements PersonService {
     }
 
     @Override
-    public Person getPerson(Integer id) {
+    public Person getPerson(Long id) {
         return personDao.getPerson(id);
     }
 
@@ -53,7 +49,7 @@ public class DefaultPersonService implements PersonService {
     }
 
     @Override
-    public void deletePerson(Integer id) {
+    public void deletePerson(Long id) {
         personDao.deletePerson(id);
     }
 
